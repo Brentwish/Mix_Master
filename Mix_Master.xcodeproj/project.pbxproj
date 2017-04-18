@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00A8EB01EA5B9F600E6CAFA /* MIDISampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A8EAF1EA5B9F600E6CAFA /* MIDISampler.swift */; };
 		F01898291EA579F700404588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01898281EA579F700404588 /* AppDelegate.swift */; };
 		F018982B1EA579F700404588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018982A1EA579F700404588 /* ViewController.swift */; };
 		F018982E1EA579F700404588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F018982C1EA579F700404588 /* Main.storyboard */; };
 		F01898301EA579F700404588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F018982F1EA579F700404588 /* Assets.xcassets */; };
 		F01898331EA579F700404588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F01898311EA579F700404588 /* LaunchScreen.storyboard */; };
+		F018983F1EA5838E00404588 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = F018983E1EA5838E00404588 /* sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F00A8EAF1EA5B9F600E6CAFA /* MIDISampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDISampler.swift; sourceTree = "<group>"; };
 		F01898251EA579F700404588 /* Mix_Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mix_Master.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01898281EA579F700404588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F018982A1EA579F700404588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		F018982F1EA579F700404588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F01898321EA579F700404588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F01898341EA579F700404588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F018983C1EA57EED00404588 /* gs_instruments.dls */ = {isa = PBXFileReference; lastKnownFileType = file; name = gs_instruments.dls; path = ../gs_instruments.dls; sourceTree = "<group>"; };
+		F018983E1EA5838E00404588 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		F018981C1EA579F700404588 = {
 			isa = PBXGroup;
 			children = (
+				F018983E1EA5838E00404588 /* sounds */,
 				F01898271EA579F700404588 /* Mix_Master */,
 				F01898261EA579F700404588 /* Products */,
 			);
@@ -54,12 +60,14 @@
 		F01898271EA579F700404588 /* Mix_Master */ = {
 			isa = PBXGroup;
 			children = (
+				F018983C1EA57EED00404588 /* gs_instruments.dls */,
 				F01898281EA579F700404588 /* AppDelegate.swift */,
 				F018982A1EA579F700404588 /* ViewController.swift */,
 				F018982C1EA579F700404588 /* Main.storyboard */,
 				F018982F1EA579F700404588 /* Assets.xcassets */,
 				F01898311EA579F700404588 /* LaunchScreen.storyboard */,
 				F01898341EA579F700404588 /* Info.plist */,
+				F00A8EAF1EA5B9F600E6CAFA /* MIDISampler.swift */,
 			);
 			path = Mix_Master;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 			files = (
 				F01898331EA579F700404588 /* LaunchScreen.storyboard in Resources */,
 				F01898301EA579F700404588 /* Assets.xcassets in Resources */,
+				F018983F1EA5838E00404588 /* sounds in Resources */,
 				F018982E1EA579F700404588 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +147,7 @@
 			files = (
 				F018982B1EA579F700404588 /* ViewController.swift in Sources */,
 				F01898291EA579F700404588 /* AppDelegate.swift in Sources */,
+				F00A8EB01EA5B9F600E6CAFA /* MIDISampler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +311,7 @@
 				F01898391EA579F700404588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
